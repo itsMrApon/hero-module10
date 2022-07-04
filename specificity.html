@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="specificity.css">
+  <title>Document</title>
+<style>
+  /* css er link er pore kaj korbe */
+  p{
+    border: 2px solid red;
+  }
+</style>
+</head>
+<body>
+  <!-- css specificity -->
+  <h3>1000</h3>
+  <h3>0100</h3>
+  <h1 class="first-heading">my Heading number 1</h1>
+  <h1 class="first-heading">my Heading number 2</h1>
+  <!-- id er agee inline style show hobe -->
+  <h1 id="second-header" class="first-heading" style="background-color: red;">my Heading number 3</h1>
+  <h1 class="first-heading">my Heading number 4</h1>
+  <p>this is my text discription 1</p>
+  <p>this is my text discription 2</p>
+  <p>this is my text discription 3</p>
+  <p>this is my text discription 4</p>
+  <p>this is my text discription 5</p>
+</body>
+</html>

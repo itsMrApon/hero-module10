@@ -1,0 +1,43 @@
+/* custom  property/veriable*/
+:root{
+  --side-width: 200px;
+  --dark-border: 2px solid black;
+  --main-color:slateblue;
+  --border-color:orange;
+  --backgrond-color: red;
+
+}
+
+
+
+h1{
+  color: var(--main-color);
+}
+p{
+  color: var(--main-color);
+}
+footer{
+  border: var(--dark-border);
+  color: var(--main-color);
+  clear: both;
+}
+h6{
+  color: var(--backgrond-color);
+}
+h2{
+  border: 2px solid --border-color;
+  color: var(--main-color);
+}
+.side-nav, 
+.blogs{
+  float: left ;
+  height: 400px;
+}
+aside{
+  background-color: aqua;
+  width: var(--side-width);
+}
+.blogs{
+  background-color: tomato;
+  width: calc(100% - 2*var(--side-width));
+}

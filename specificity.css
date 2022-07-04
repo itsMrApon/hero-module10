@@ -1,0 +1,25 @@
+/* class er kaj age hobe */
+.first-heading{
+  background-color: blueviolet;
+}
+/* id use class er che age hobe */
+#second-header{
+  background-color: brown;
+}
+h1{
+  color: aquamarine;
+  background-color: cyan;
+}
+/* ! use kore inline er cheo agee show hobe */
+h1{
+  color: cadetblue !important;
+}
+h1{
+  color: red;
+}
+/* first a load hobe */
+p{
+  border: 2px solid black;
+}
+
+/* style ,id ,class ,element */ 
